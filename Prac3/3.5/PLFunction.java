@@ -4,9 +4,9 @@ class PLFuction{
 		Connection con=null;
 		PreparedStatement stmt=null;
 		try{
-			System.out.println("Enrollment:130050131072");
+			System.out.println("Enrollment:130050131065");
 			MyData72 m1=new MyData72();
-			con=m1.SetConnection("s2a130050131072");
+			con=m1.SetConnection("s2d130050131065");
 			stmt=con.prepareStatement("Select display()");
 			ResultSet rs=stmt.executeQuery();
 			while(rs.next()){
